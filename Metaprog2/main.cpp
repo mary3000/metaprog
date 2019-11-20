@@ -172,7 +172,7 @@ int main() {
     // Should print
     // Sofa
     // MetalSofa
-    //MetalRichSofa
+    // MetalRichSofa
 
     delete MyFactory;
     delete a;
