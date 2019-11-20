@@ -189,21 +189,7 @@ struct ConcreteFactory {
             return reinterpret_cast<C*>(new CType());
         }
         return ConcreteFactory<closest_parent, Head, Tail...>().template Get<C>();
-        //return new typename GetClosestValue<std::is_base_of<C, CType>::value, C, CType, closest_parent>::value();
     }
-
-   /* template<bool is_base, typename C, typename CType, typename P>
-    struct GetClosestValue;
-
-    template<typename C, typename CType, typename P>
-    struct GetClosestValue<true, C, CType, P> {
-        using value = CType;
-    };
-
-    template<typename C, typename CType, typename P>
-    struct GetClosestValue<false, C, CType, P> {
-        static constexpr C value = ConcreteFactory<P, Head, Tail...>().template Get<C>;
-    };*/
 
     template<bool parent, typename L, typename C, typename... C1>
     struct GetSomeParentImpl;
