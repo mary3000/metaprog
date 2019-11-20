@@ -1,0 +1,1 @@
+/usr/bin/clang++-6.0  -g   CMakeFiles/Metaprog2.dir/main.cpp.o  -o Metaprog2 
