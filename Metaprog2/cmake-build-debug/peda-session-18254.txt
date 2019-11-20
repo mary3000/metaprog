@@ -1,4 +1,0 @@
-break /home/sham42/CLionProjects/Metaprog2/main.cpp:101
-break /home/sham42/CLionProjects/Metaprog2/main.cpp:102
-
-set exec-wrapper The wrapper for running programs is \

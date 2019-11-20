@@ -1,3 +1,0 @@
-/home/sham42/git/metaprog/Metaprog2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sham42/git/metaprog/Metaprog2/cmake-build-debug/CMakeFiles/Metaprog2.dir
-/home/sham42/git/metaprog/Metaprog2/cmake-build-debug/CMakeFiles/edit_cache.dir
