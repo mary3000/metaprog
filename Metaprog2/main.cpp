@@ -128,34 +128,6 @@ struct Typelist<T> {
 };
 
 template <typename T>
-struct ConcreteFactory;
-
-struct Factory {
-
-    /*template <class T> static Factory create() // could also return by value, or a smart pointer
-    {
-        return Factory([]() {return new ConcreteFactory<T>;});
-        //return new typename T::template GetSubtype<C>::value();
-    }
-
-
-    Factory(std::function<void*()> f) {
-        func = std::move(f);
-    }
-
-    template <typename C>
-    C* Get() {
-        std::cout << "a: " << a << "\n";
-        return static_cast<Sofa *>(func());
-    }
-
-    int a = 1;
-    std::any v;
-
-    std::function<void*()> func;*/
-};
-
-template <typename T>
 struct ConcreteFactory {
     template <typename C>
     C* Get() {
@@ -196,6 +168,11 @@ using MyFactoryHierarchy = GetAbstractFactory<3,5, Typelist<Chair, Table, Sofa>,
 int main() {
     auto MyFactory = new MyFactoryHierarchy::GetConcreteFactory<MetalRichChair>::result;
     Sofa* a = MyFactory->Get<Sofa>();
+
+    // Should print
+    // Sofa
+    // MetalSofa
+    //MetalRichSofa
 
     delete MyFactory;
     delete a;
