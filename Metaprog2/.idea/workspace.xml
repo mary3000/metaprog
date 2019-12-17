@@ -13,9 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac34193d-3891-4ccb-865e-46addc173528" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +28,13 @@
   </component>
   <component name="ProjectId" id="1Tq8ZbdIW8lML9KjVbcGevrKM2L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -42,24 +47,24 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Metaprog2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Metaprog2" TARGET_NAME="Metaprog2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Metaprog2" RUN_TARGET_NAME="Metaprog2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -73,7 +78,10 @@
       <updated>1574176321724</updated>
       <workItem from="1574176323334" duration="5217000" />
       <workItem from="1574233243511" duration="16461000" />
-      <workItem from="1574272535799" duration="12810000" />
+      <workItem from="1574272535799" duration="13456000" />
+      <workItem from="1574331336601" duration="14000" />
+      <workItem from="1574426886096" duration="320000" />
+      <workItem from="1576579326874" duration="1869000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1574273267820</created>
@@ -96,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574276795387</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="additional task">
+      <created>1574289973211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574289973211</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove commented parts">
+      <created>1574290079917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574290079917</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +129,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -115,7 +139,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="additional task" />
+    <MESSAGE value="remove commented parts" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove commented parts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -127,7 +153,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>322</line>
+          <line>318</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
