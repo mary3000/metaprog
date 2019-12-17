@@ -6,17 +6,18 @@
 
 using namespace std;
 
-
-
-
-
 int main() {
+
     AcceptorA a;
     VisitorY y;
     a.Accept(&y);
 
     VisitFactory<Typelist<VisitorY>, Typelist<AcceptorA>, int, int> factory;
-    factory.Go(&y, &a, 5);
+    cout << factory.Go(&y, &a, 5) << endl;
+
+    AcceptorB b;
+
+    cout << factory.Go(&y, &b, 42) << endl;
 
     return 0;
 }
