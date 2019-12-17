@@ -5,7 +5,7 @@
 #ifndef METAPROG3_VISIT_FACTORY_H
 #define METAPROG3_VISIT_FACTORY_H
 
-#include "shared.h"
+#include "common.h"
 #include "functor.h"
 #include "typelist.h"
 

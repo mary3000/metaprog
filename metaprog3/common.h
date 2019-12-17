@@ -2,8 +2,8 @@
 // Created by sham42 on 17.12.2019.
 //
 
-#ifndef METAPROG3_SHARED_H
-#define METAPROG3_SHARED_H
+#ifndef METAPROG3_COMMON_H
+#define METAPROG3_COMMON_H
 
 class Visitor;
 class Acceptor;
@@ -57,4 +57,4 @@ public:
     }
 };
 
-#endif //METAPROG3_SHARED_H
+#endif //METAPROG3_COMMON_H

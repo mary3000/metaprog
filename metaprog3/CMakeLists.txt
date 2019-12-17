@@ -3,4 +3,4 @@ project(metaprog3)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(metaprog3 main.cpp functor.h typelist.h visit_factory.h shared.h)
+add_executable(metaprog3 main.cpp functor.h typelist.h visit_factory.h common.h)
